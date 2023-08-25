@@ -1,0 +1,237 @@
+:root {
+  --iris: #4d5ae5;
+  --navyblue: #2e2f42;
+  --ocean: #404bbf;
+  --white: #fff;
+  --slate: #434455;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  margin: 0;
+}
+
+/* HEADER PART */
+.logo {
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  display: inline-flex;
+}
+.logo span {
+    margin: 0;
+}
+.logo-web {
+  color: var(--iris);
+}
+.logo-studio {
+  color: var(--navyblue);
+}
+
+
+.link-pages a, 
+.link-pages {
+    text-decoration: none;
+    color: var(--navyblue);
+    font-weight: 500;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.link-pages a:hover,
+.link-pages a:focus {
+    color: var(--ocean);
+}
+.communication a,
+.communication {
+    list-style-type: none;
+    text-decoration: none;
+    color: var(--slate);
+    padding: 0;
+    margin: 0;
+}
+.communication a:hover,
+.communication a:focus {
+    color: var(--ocean);
+}
+
+/* MAIN */
+/* HERO Section */
+
+.hero {
+    background-color: var(--navyblue);
+    margin: 0%;
+    padding: 0%;
+}
+.hero-title {
+    color: var(--white);
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.12px;
+}
+.hero button {
+    cursor: pointer;
+    color: var(--white);
+    background: var(--iris);
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.64px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    padding: 16px 32px;
+}
+.hero button:hover,
+.hero button:focus {
+    color: var(--white);
+    background-color: var(--ocean);
+}
+
+
+/* Section 1 */
+.feature {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.feature-title {
+    color: var(--navyblue);
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+}
+.description {
+    color: var(--slate);
+    font-size: 16px;
+    line-height: 24px; 
+    letter-spacing: 0.32px;
+}
+
+/* Section 2 */
+.what-we-do-title {
+    color: var(--navyblue);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+.what-we-do-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Section 3 */
+.team {
+    background-color: var(--cloud);
+    padding: 0;
+    margin: 0;
+}
+.team-title {
+    color: var(--navyblue);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+.team-name {
+    color: var(--navyblue);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    list-style: none;
+    text-align: center;
+}
+.team-role {
+    color: var(--slate);
+    list-style: none;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    text-align: center;
+}
+.team-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* FOOTER */
+.footer {
+    background-color: var(--navyblue);
+    padding: 0;
+    margin: 0;
+}
+.logo-studio2 {
+    color: var(--cloud);
+}
+.motto {
+    color: var(--cloud);
+}
+
+
+
+
+
+/*  PORTFOLIO STYLES  */
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.filter-button {
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 4px;
+    border: 1px solid var(--cornflower);
+    background: var(--cloud);
+    color: var(--iris);
+    text-align: center;
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.buttons button:hover,
+.buttons button:focus {
+    color: var(--white);
+    background-color: var(--ocean);
+}
+
+.projects {
+    padding: 0;
+}
+.card-title {
+    color: var(--navyblue);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+.card-info {
+    color: var(--slate);
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
