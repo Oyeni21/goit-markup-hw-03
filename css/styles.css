@@ -324,7 +324,7 @@ ul {
     row-gap: 48px;
 }
 .project-list:last-child {
-    margin-bottom: 48px;
+    margin-bottom: 120px;
 }
 .card-title {
     color: var(--navyblue);
