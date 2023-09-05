@@ -256,14 +256,16 @@ ul {
 /* FOOTER */
 .footer-container{
     background-color: var(--navyblue);
-    height: 312px;
-    padding: 100px 0;
+    padding-top: 101.5px;
+    padding-bottom: 100px;
     flex-shrink: 0;
 }
 .footer-content {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin: 0;
+    padding-left: 156px;
 }
 .footer-motto {
     margin-top: 8px;
@@ -280,10 +282,15 @@ ul {
 
 
 /*  PORTFOLIO STYLES  */
-.list {
+.filters {
+    padding-top: 96px;
+    padding-bottom: 72px;
+}
+.buttons-list {
     list-style: none;
-    margin: 0;
-    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
 }
 .filter-button {
     font-size: 16px;
@@ -299,14 +306,25 @@ ul {
     align-items: center;
     cursor: pointer;
 }
-.buttons button:hover,
-.buttons button:focus {
+.buttons-list button:hover,
+.buttons-list button:focus {
     color: var(--white);
     background-color: var(--ocean);
 }
-
-.projects {
-    padding: 0;
+.projects-container {
+    display: flex;
+}
+.project-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    row-gap: 48px;
+}
+.project-list:last-child {
+    margin-bottom: 48px;
 }
 .card-title {
     color: var(--navyblue);
@@ -314,10 +332,14 @@ ul {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.4px;
+    margin-bottom: 8px;
 }
 .card-info {
     color: var(--slate);
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.32px;
+}
+.project-card-content {
+    padding: 32px 16px;
 }
