@@ -32,14 +32,13 @@ ul {
 
 /* HEADER PART */
 .container {
-    max-width: 1158px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 .header-container {
     border-bottom: 1px solid var(--cornflower);
     background: var(--white, #FFF);
-    padding-top: 24px; 
-    padding-bottom: 24px;
+    padding: 24px 156px;
     margin: 0;
     max-width: 100%;
     display: flex;
